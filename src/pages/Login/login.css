@@ -1,0 +1,192 @@
+
+span{
+  color: #fff;
+}
+
+#conta{
+  color: #fff;
+}
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-image: url(../../pages/Login/bg.jpg);
+  background-repeat: no-repeat;
+  object-fit: cover;
+}
+
+.subContainer {
+  border: 1px solid rgba(225, 223, 221, 0.563);
+  background-color: transparent;
+  backdrop-filter: blur(20px);
+  padding: 30px;
+  height: 90%;
+  border-radius: 10px;
+}
+
+
+
+.header {
+  justify-content: left;
+  align-items: last baseline;
+  text-align: left;
+}
+
+.header h1 {
+  margin-top: 30px;
+  color: #fff;
+  font-size: 36px;
+  font-weight: bold;
+}
+
+
+.container form {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.container form  .inputContainer {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.container form  .inputContainer label {
+  color: #fff;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  margin-bottom: 8px;
+}
+
+.password-input {
+  width: 520px;
+
+  align-items: center;
+  justify-content: center;
+}
+
+.password-lg {
+  display: flex;
+  height: 100%;
+  width: 100%;
+}
+
+.email input {
+  border-radius: 12px;
+  border: none;
+  outline: none;
+}
+
+.input {
+  border-top-left-radius: 12px;
+  border-bottom-left-radius: 12px;
+  border: none;
+  outline: none;
+}
+
+.btn-eye {
+  width: 80px;
+  height: 49px;
+
+  background-color: #fff;
+  border: none;
+  border-top-right-radius: 12px;
+  border-bottom-right-radius: 12px;
+
+  font-size: 25px;
+}
+
+.container form a {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  color: #5C73DB;
+}
+
+.container form .button {
+  width: 520px;
+  height: 48px;
+  background: #9400D3;
+  border-radius: 12px;
+  color: #ffffff;
+  border: none;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+
+
+.google {
+  width: 520px;
+  height: 48px;
+  background: black;
+  border-radius: 12px;
+  color: #fff;
+  border: none;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+
+.btn-login {
+  width: 520px;
+  height: 48px;
+  background: #9400D3;
+  border-radius: 12px;
+  color: #fff;
+  border: none;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+
+  margin-bottom: 20px;
+}
+
+.container form .google:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+.container form .btn-login:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+.rodape {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3px
+}
+
+
+.rodape p {
+  color: #fff;
+}
